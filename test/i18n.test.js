@@ -65,4 +65,19 @@ describe('i18n', () => {
 
     expect(callback.calledOnce).eq(true)
   })
+
+  it('generate message from template with dot notation', async () => {
+    const callback = sinon.fake()
+
+    bot.on((ctx) => {
+      const message = ctx.i18n.__('errors.userNotFound')
+
+      callback()
+      expect(message).eq('Пользователь не найден')
+    })
+
+    await handleUpdate()
+
+    expect(callback.calledOnce).eq(true)
+  })
 })

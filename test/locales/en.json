@@ -1,3 +1,6 @@
 {
-  "start": "Hello, %name%!"
+  "start": "Hello, %name%!",
+  "errors": {
+    "userNotFound": "User not found"
+  }
 }

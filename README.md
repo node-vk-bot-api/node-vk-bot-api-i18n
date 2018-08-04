@@ -61,7 +61,7 @@ bot.startPolling()
 ### Methods
 
 * `ctx.i18n.locale=`: Setter for locale
-* `ctx.i18n.lcoale`: Getter for locale
+* `ctx.i18n.locale`: Getter for locale
 * `ctx.i18n.__(key, [variables])`: Generate message from template
 
 ### Locale file example
@@ -70,7 +70,10 @@ All files must be store as json.
 
 ```js
 {
-  "start": "Hello, %name%!"
+  "start": "Hello, %name%!",
+  "errors": {
+    "userNotFound": "User not found."
+  }
 }
 ```
 

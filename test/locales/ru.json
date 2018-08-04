@@ -1,3 +1,6 @@
 {
-  "start": "Привет, %name%!"
+  "start": "Привет, %name%!",
+  "errors": {
+    "userNotFound": "Пользователь не найден"
+  }
 }
