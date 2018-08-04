@@ -1,0 +1,38 @@
+{
+  "name": "node-vk-bot-api-i18n",
+  "version": "1.0.0",
+  "description": "I18n middleware for node-vk-bot-api",
+  "main": "lib/i18n.js",
+  "scripts": {
+    "test": "mocha test/i18n.test.js --exit --timeout 5000",
+    "eslint": "eslint ./",
+    "eslint:fix": "eslint ./ --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/node-vk-bot-api/node-vk-bot-api-i18n.git"
+  },
+  "keywords": [
+    "vk",
+    "i18n",
+    "bot",
+    "node",
+    "bot",
+    "api"
+  ],
+  "author": "Mikhail Semin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/node-vk-bot-api/node-vk-bot-api-i18n/issues"
+  },
+  "homepage": "https://github.com/node-vk-bot-api/node-vk-bot-api-i18n#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "mocha": "^5.2.0",
+    "node-vk-bot-api": "^2.0.3",
+    "sinon": "^6.1.4"
+  }
+}
