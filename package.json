@@ -32,7 +32,7 @@
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-plugin-import": "^2.13.0",
     "mocha": "^5.2.0",
-    "node-vk-bot-api": "^2.0.3",
+    "node-vk-bot-api": "^2.4.2",
     "sinon": "^6.1.4"
   }
 }

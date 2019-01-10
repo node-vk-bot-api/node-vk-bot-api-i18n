@@ -1,10 +1,7 @@
-const VkBot = require('node-vk-bot-api')
-const Session = require('node-vk-bot-api/lib/session')
+const VkBot = require('node-vk-bot-api');
+const Session = require('node-vk-bot-api/lib/session');
 
-const bot = new VkBot({
-  token: process.env.TOKEN,
-  group_id: process.env.GROUP_ID,
-})
+const bot = new VkBot(process.env.TOKEN);
 
 module.exports = {
   bot,
@@ -16,8 +13,8 @@ module.exports = {
         type,
         from_id: 145003487,
       },
-    })
+    });
 
-    setTimeout(resolve, 100)
+    setTimeout(resolve, 100);
   }),
-}
+};
